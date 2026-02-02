@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #00e5ff, #00c853);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #000;
+            font-weight: bold;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .box {
+            background: rgba(255, 255, 255, 0.08);
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            font-size: 28px;
+            color: #00e5ff;
+        }
+
+        .skills ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            list-style: none;
+            gap: 10px;
+        }
+
+        .skills ul li {
+            background: rgba(0,0,0,0.3);
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="profile-pic">My Photo</div>
+    <h1>Hi, I'm Vaishnavi Bhosale</h1>
+    <p>Web Developer | HTML • CSS • JavaScript</p>
+</header>
+
+<section class="box">
+    <h2>About Me</h2>
+    <p>
+        I am a motivated web developer with a strong interest in designing and building
+        responsive and user-friendly websites. I enjoy learning new technologies and
+        improving my skills through practical projects and internships.
+    </p>
+</section>
+
+<section class="box">
+    <h2>Education</h2>
+    <p>
+        <strong>Bachelor of Computer Applications (BCA)</strong><br>
+        Tilak Maharashtra Vidyapeeth<br>
+        Currently Pursuing
+    </p>
+</section>
+
+<section class="box skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Responsive Web Design</li>
+        <li>Git & GitHub</li>
+        <li>UI/UX Basics</li>
+    </ul>
+</section>
+
+<section class="box">
+    <h2>Projects</h2>
+    <p><strong>Interactive Navigation Menu</strong> – Fixed navigation menu with scroll and hover effects.</p>
+    <p><strong>Stopwatch Web Application</strong> – Stopwatch with lap functionality.</p>
+    <p><strong>Tic-Tac-Toe Game</strong> – Two-player interactive game with win detection.</p>
+</section>
+
+<footer>
+    © 2026 Vaishnavi Bhosale | Prodigy Infotech Internship
+</footer>
+
+</body>
+</html>
